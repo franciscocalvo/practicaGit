@@ -1,0 +1,21 @@
+git branch -a
+git checkout practica01
+(Modifico ficheros)
+git add .
+git commit -m
+git branch practica1_CALVO_FRANCISCO
+git checkout practica1_CALVO_FRANCISCO
+git touch practica1_CALVO_FRANCISCO.txt
+(modifico fichero)
+git add .
+git commit -m
+(Vuelvo a modificar el fichero)
+git add .
+git commit -m (Acepto machacar el commit anterior)
+git push
+git checkout practica01
+git merge practica1_CALVO_FRANCISCO
+git push
+git checkout main
+git merge practica01
+git push
